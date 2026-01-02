@@ -1,0 +1,113 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Model Files (Large files - use Git LFS if needed)
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+*.onnx
+*.pt
+*.pth
+*.safetensors
+*.bin
+models/
+checkpoints/
+weights/
+
+# Data files
+*.csv
+*.tsv
+*.json
+*.parquet
+data/
+datasets/
+raw_data/
+processed_data/
+
+# Logs
+*.log
+logs/
+*.out
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Lab specific
+labs/data/
+labs/models/
+*.pkl
+poisoned_model.pkl
+
+# Security - sensitive files
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Build artifacts
+*.tar.gz
+*.zip
+*.rar
+
